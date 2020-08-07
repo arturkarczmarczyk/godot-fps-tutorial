@@ -2,20 +2,21 @@ extends KinematicBody
 
 const GRAVITY = -24.8
 var vel = Vector3()
-const MAX_SPEED = 20
-const JUMP_SPEED = 18
+const MAX_SPEED = 30
+const JUMP_SPEED = MAX_SPEED / 20 * 18
 const ACCEL = 4.5
+const DEACCEL = 16
+const MAX_SLOPE_ANGLE = 40
+
 const UP = Vector3(0,1,0)
 
 var dir = Vector3()
 
-const DEACCEL = 16
-const MAX_SLOPE_ANGLE = 40
 
 var camera
 var rotation_helper
 
-var MOUSE_SENSITIVITY = 0.05
+var MOUSE_SENSITIVITY = 0.10
 
 func _ready():
 	camera = $Rotation_Helper/Camera
@@ -54,7 +55,7 @@ func process_input(delta):
 	# jumping
 	if is_on_floor():
 		if Input.is_action_just_pressed("movement_jump"):
-			vel.y = JUMP_SPEED	
+			vel.y = JUMP_SPEED
 	# /jumping
 	
 	# capturing / freeing the cursor
