@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/FXhome.com Fighting Swing Sound 28.ogg-dfa6353b68417e58a0e7c3bdf18d38fa.oggstr"
+
+[deps]
+
+source_file="res://assets/sfx/FXhome.com Fighting Swing Sound 28.ogg"
+dest_files=[ "res://.import/FXhome.com Fighting Swing Sound 28.ogg-dfa6353b68417e58a0e7c3bdf18d38fa.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

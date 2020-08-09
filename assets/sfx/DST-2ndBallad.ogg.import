@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/DST-2ndBallad.ogg-4485a145a6d513b5fc1b2747a8fb7580.oggstr"
+
+[deps]
+
+source_file="res://assets/sfx/DST-2ndBallad.ogg"
+dest_files=[ "res://.import/DST-2ndBallad.ogg-4485a145a6d513b5fc1b2747a8fb7580.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
